@@ -1,7 +1,0 @@
-﻿MONSTERSURVIVAL 7I.2 - MODE SELECTION QA
-Time=2026-11-02T07:38:30.1740037+07:00 Unity=6000.6.6f1 Mode=PLAY Scene=SampleScene
-SessionPending=False PendingMode=Normal LastApplied=Endless FromMainMenu=True StartCommits=2 Consumes=2
-GAMEPLAY mode=Endless fromMenu=True applied=True status=APPLIED: Endless FROM MAINMENU
-7I1 InspectorFlag=True RuntimeEnabled=True BossGate=True Started=True CurrentEndlessWave=6 Peak=6 ErrorCount=0 LastStatus=WAVE 6 ACTIVE
-[7I.2] PURE MODE RULE TESTS PASS=5 FAIL=0 (no Scene / Save writes)
-MANUAL PENDING: NORMAL Wave5 Victory, ENDLESS Wave6+, real map/profile mapping, Pause/GameOver, save/Quest isolation, buttons at 1920x1080 / 1280x720 / 1024x768.

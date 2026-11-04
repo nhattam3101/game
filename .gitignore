@@ -133,6 +133,17 @@ crashlytics-build.properties
 # UI Toolkit auto generated files
 /UIElementsSchema/
 
+# MonsterSurvival editor-generated backups and QA reports
+/MS_Backups/
+/MS_QAReports/
+/MS_Reports/
+/UI_QA_Reports/
+/MonsterSurvival_*_Backups/
+/Assets/MS_Backups/
+/Assets/MS_Backups.meta
+/Assets/**/Backups/
+/Assets/**/Backups.meta
+
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 /Library/

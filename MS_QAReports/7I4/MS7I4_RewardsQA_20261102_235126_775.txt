@@ -1,9 +1,0 @@
-﻿MONSTERSURVIVAL 7I.4 / ENDLESS RECORDS & REWARDS QA
-Generated=2026-11-02T23:51:26.7602009+07:00 Unity=6000.6.6f1 Play=True Scene=SampleScene
-7I.4 PURE RULES PASS=12 FAIL=0 (no Scene/Save/disk writes)
-RECORDER enabled=True slot=3 bound=True captured=False cleared=0 reward=0 errors=0
-RECORDER STATUS=BOUND Profile 3 / Endless-only pending GameOver
-7I2 last mode=Endless fromMenu=True
-PROFILE 3 valid=True status=NEW EMPTY RECORD (NO DISK WRITE)
-BEST REACHED=0 BEST CLEARED=0 RUNS=0 BOSSES=0 PENDING=0 GOLD=0
-MANUAL PENDING: real Endless defeat record, restart/quit no ticket, MainMenu claim one-time, Gold/5A marker/revision, 7H not increment, two Profiles isolation, Normal Victory, UI, backup/rollback.

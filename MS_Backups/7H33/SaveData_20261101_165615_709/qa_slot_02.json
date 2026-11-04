@@ -1,6 +1,0 @@
-{
-    "magic": "MONSTERSURVIVAL_SAVE_5A1",
-    "formatVersion": 1,
-    "sha256": "4904b0ed80569e6ca4938c3d99a18d26a057552f44602f835b1ce3d455e24b1f",
-    "payloadJson": "{\"schemaVersion\":1,\"profileId\":\"qa_slot_02\",\"createdUtc\":\"2026-10-27T16:59:36.5830218Z\",\"lastSavedUtc\":\"2026-10-27T16:59:36.5830218Z\",\"revision\":1,\"bankGold\":17,\"unlockedContentIds\":[],\"permanentUpgrades\":[]}"
-}
