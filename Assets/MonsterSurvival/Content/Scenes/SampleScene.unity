@@ -5917,6 +5917,7 @@ MonoBehaviour:
   victoryByWaves: 1
   stageDuration: 120
   timerText: {fileID: 1955168592}
+  mainMenuScenePath: Assets/MonsterSurvival/Content/Scenes/MainMenu.unity
 --- !u!4 &484642370
 Transform:
   m_ObjectHideFlags: 0
@@ -101912,6 +101913,8 @@ MonoBehaviour:
   fastWeight: 25
   tankWeight: 10
   screenMargin: 0.08
+  spawnFromViewportEdge: 1
+  fallbackPositionAttempts: 12
   safeSpawn: {fileID: 1820089056}
   minDistanceFromPlayer: 3.5
   spawnClearanceRadius: 0.45
@@ -109482,6 +109485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 200
+  playerHitInvulnerability: 0.18
 --- !u!114 &1305027995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109515,6 +109519,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 4
+  enableDash: 1
+  dashSpeed: 13
+  dashDuration: 0.16
+  dashCooldown: 1.15
+  dashInvulnerabilityBonus: 0.06
 --- !u!212 &1305027997
 SpriteRenderer:
   serializedVersion: 3
@@ -119509,6 +119518,11 @@ MonoBehaviour:
   minimumSpawnInterval: 0.6
   firstWaveMaxEnemies: 20
   extraEnemiesPerWave: 5
+  enableCoreEnemyScaling: 1
+  healthGrowthPerWave: 0.16
+  damageGrowthPerWave: 0.08
+  speedGrowthPerWave: 0.025
+  rewardGrowthPerWave: 0.1
   rangedEnemyPrefab: {fileID: 1670664197489128594, guid: 9b76a1f1fa255c841a74f4c161e32d53, type: 3}
   rangedStartWave: 2
   rangedSpawnInterval: 1

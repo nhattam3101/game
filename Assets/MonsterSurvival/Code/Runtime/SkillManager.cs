@@ -38,6 +38,10 @@ public class SkillManager : MonoBehaviour
         new List<SkillData>();
 
     private bool isSelecting = false;
+    private int pendingSelections;
+
+    public bool IsSelecting => isSelecting;
+    public int PendingSelections => pendingSelections;
 
 
     private void Start()
@@ -304,14 +308,25 @@ public class SkillManager : MonoBehaviour
     // Mo bang chon ky nang
     public void OpenSkillSelection()
     {
-        if (isSelecting)
+        pendingSelections++;
+        OpenNextPendingSelection();
+    }
+
+
+    private void OpenNextPendingSelection()
+    {
+        if (isSelecting || pendingSelections <= 0)
             return;
 
         if (!ValidateUI())
+        {
+            pendingSelections = 0;
             return;
+        }
 
         if (CountAvailableSkills() == 0)
         {
+            pendingSelections = 0;
             Debug.Log(
                 "Tat ca ky nang da dat cap toi da!"
             );
@@ -324,6 +339,7 @@ public class SkillManager : MonoBehaviour
             RefillSkillPool();
         }
 
+        pendingSelections--;
         isSelecting = true;
 
         // Tam dung game
@@ -467,12 +483,20 @@ public class SkillManager : MonoBehaviour
             " len Lv." + newLevel
         );
 
-        // Dong bang chon
+        // Dong bang chon hien tai.
         isSelecting = false;
 
         skillPanel.SetActive(false);
 
-        // Tiep tuc game
-        Time.timeScale = 1f;
+        // Neu mot lan nhan EXP tang nhieu level, khong lam mat cac luot chon.
+        if (pendingSelections > 0 && CountAvailableSkills() > 0)
+        {
+            OpenNextPendingSelection();
+        }
+        else
+        {
+            pendingSelections = 0;
+            Time.timeScale = 1f;
+        }
     }
 }

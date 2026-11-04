@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
+    public event System.Action<int> OnWaveStarted;
+    public event System.Action<int> OnWaveCompleted;
+
     [Header("References")]
     public EnemySpawner enemySpawner;
     public GameManager gameManager;
@@ -47,6 +50,14 @@ public class WaveManager : MonoBehaviour
 
     [Min(0)]
     public int extraEnemiesPerWave = 5;
+
+    [Header("Core Enemy Scaling")]
+    [Tooltip("Scales newly spawned non-boss enemies. Advanced 7A profiles may still override special enemies.")]
+    public bool enableCoreEnemyScaling = true;
+    [Min(0f)] public float healthGrowthPerWave = 0.16f;
+    [Min(0f)] public float damageGrowthPerWave = 0.08f;
+    [Min(0f)] public float speedGrowthPerWave = 0.025f;
+    [Min(0f)] public float rewardGrowthPerWave = 0.1f;
 
     [Header("Ranged Enemy Settings (Optional)")]
     public GameObject rangedEnemyPrefab;
@@ -136,6 +147,7 @@ public class WaveManager : MonoBehaviour
         }
 
         enemySpawner.enabled = false;
+        enemySpawner.OnEnemySpawned += ScaleSpawnedEnemy;
 
         if (announcementText != null)
         {
@@ -160,6 +172,7 @@ public class WaveManager : MonoBehaviour
             CurrentWave = wave;
 
             ConfigureWave(wave);
+            OnWaveStarted?.Invoke(wave);
 
             yield return ShowAnnouncement(
                 "WAVE " + wave,
@@ -275,6 +288,8 @@ public class WaveManager : MonoBehaviour
                     yield return null;
                 }
             }
+
+            OnWaveCompleted?.Invoke(wave);
 
             // Thoi gian nghi giua cac Wave
             if (wave < totalWaves)
@@ -410,6 +425,7 @@ public class WaveManager : MonoBehaviour
         GameObject newEnemy = Instantiate(
             rangedEnemyPrefab, spawnPosition, Quaternion.identity
         );
+        ScaleSpawnedEnemy(newEnemy);
         activeRangedEnemies.Add(newEnemy);
 
         Debug.Log("Wave " + wave + ": Spawn RangedEnemy tai " + spawnPosition);
@@ -622,6 +638,40 @@ public class WaveManager : MonoBehaviour
         );
     }
 
+    private void ScaleSpawnedEnemy(GameObject enemy)
+    {
+        if (!enableCoreEnemyScaling || enemy == null || CurrentWave <= 1)
+            return;
+
+        int steps = CurrentWave - 1;
+        float healthScale = 1f + healthGrowthPerWave * steps;
+        float damageScale = 1f + damageGrowthPerWave * steps;
+        float speedScale = 1f + speedGrowthPerWave * steps;
+        float rewardScale = 1f + rewardGrowthPerWave * steps;
+
+        Health health = enemy.GetComponent<Health>();
+        if (health != null)
+            health.SetMaxHealth(health.maxHealth * healthScale, true);
+
+        EnemyController melee = enemy.GetComponent<EnemyController>();
+        if (melee != null)
+        {
+            melee.damage *= damageScale;
+            melee.moveSpeed *= speedScale;
+            melee.expReward = Mathf.Max(1, Mathf.RoundToInt(melee.expReward * rewardScale));
+            melee.coinReward = Mathf.Max(0, Mathf.RoundToInt(melee.coinReward * rewardScale));
+        }
+
+        RangedEnemyController ranged = enemy.GetComponent<RangedEnemyController>();
+        if (ranged != null)
+        {
+            ranged.projectileDamage *= damageScale;
+            ranged.moveSpeed *= speedScale;
+            ranged.expReward = Mathf.Max(1, Mathf.RoundToInt(ranged.expReward * rewardScale));
+            ranged.coinReward = Mathf.Max(0, Mathf.RoundToInt(ranged.coinReward * rewardScale));
+        }
+    }
+
     private IEnumerator ShowAnnouncement(
         string message,
         float duration
@@ -654,6 +704,9 @@ public class WaveManager : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (enemySpawner != null)
+            enemySpawner.OnEnemySpawned -= ScaleSpawnedEnemy;
+
         if (bossHealth != null)
         {
             bossHealth.OnDied -= OnBossDied;

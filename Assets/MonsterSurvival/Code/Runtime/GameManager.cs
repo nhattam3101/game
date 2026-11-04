@@ -3,6 +3,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+public enum GameSessionState
+{
+    Starting,
+    Running,
+    Victory,
+    Defeat
+}
+
 public class GameManager : MonoBehaviour
 {
     [Header("Game Over UI")]
@@ -20,6 +28,9 @@ public class GameManager : MonoBehaviour
     [Header("Old Timer UI (Optional)")]
     public TMP_Text timerText;
 
+    [Header("Navigation")]
+    public string mainMenuScenePath = "Assets/MonsterSurvival/Content/Scenes/MainMenu.unity";
+
     private float remainingTime;
     private bool isGameOver;
 
@@ -30,11 +41,17 @@ public class GameManager : MonoBehaviour
         get { return isGameOver; }
     }
 
+    public GameSessionState State { get; private set; } = GameSessionState.Starting;
+    public float ElapsedPlayTime { get; private set; }
+    public System.Action<GameSessionState> OnSessionEnded;
+
     private void Start()
     {
         Time.timeScale = 1f;
 
         isGameOver = false;
+        State = GameSessionState.Running;
+        ElapsedPlayTime = 0f;
         remainingTime = stageDuration;
 
         // An man hinh Game Over va Victory
@@ -94,6 +111,8 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        ElapsedPlayTime += Time.deltaTime;
+
         // Che do Wave:
         // Khong dem thoi gian Victory cu.
         if (victoryByWaves)
@@ -137,50 +156,32 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        if (isGameOver)
-        {
-            return;
-        }
-
-        isGameOver = true;
-
-        if (victoryPanel != null)
-        {
-            victoryPanel.SetActive(false);
-        }
-
-        if (gameOverPanel != null)
-        {
-            gameOverPanel.SetActive(true);
-        }
-
-        Time.timeScale = 0f;
-
-        Debug.Log("Player da thua!");
+        EndSession(GameSessionState.Defeat);
     }
 
     public void Victory()
     {
-        if (isGameOver)
-        {
+        EndSession(GameSessionState.Victory);
+    }
+
+    private void EndSession(GameSessionState result)
+    {
+        if (isGameOver || (result != GameSessionState.Victory && result != GameSessionState.Defeat))
             return;
-        }
 
         isGameOver = true;
+        State = result;
 
         if (gameOverPanel != null)
-        {
-            gameOverPanel.SetActive(false);
-        }
-
+            gameOverPanel.SetActive(result == GameSessionState.Defeat);
         if (victoryPanel != null)
-        {
-            victoryPanel.SetActive(true);
-        }
+            victoryPanel.SetActive(result == GameSessionState.Victory);
 
         Time.timeScale = 0f;
-
-        Debug.Log("Hoan thanh man choi!");
+        OnSessionEnded?.Invoke(result);
+        Debug.Log(result == GameSessionState.Victory
+            ? "Hoan thanh man choi!"
+            : "Player da thua!");
     }
 
     public void RestartStage()
@@ -190,6 +191,19 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(
             SceneManager.GetActiveScene().buildIndex
         );
+    }
+
+    public void ReturnToMainMenu()
+    {
+        if (string.IsNullOrWhiteSpace(mainMenuScenePath) ||
+            !Application.CanStreamedLevelBeLoaded(mainMenuScenePath))
+        {
+            Debug.LogError("GameManager: MainMenu scene is missing or disabled: " + mainMenuScenePath, this);
+            return;
+        }
+
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mainMenuScenePath);
     }
 
     private void OnDestroy()

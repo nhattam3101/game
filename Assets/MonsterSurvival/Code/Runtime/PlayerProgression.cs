@@ -12,9 +12,13 @@ public class PlayerProgression : MonoBehaviour
     public int coins = 0;
 
     public System.Action OnProgressChanged;
+    public System.Action<int> OnLevelUp;
+
+    private SkillManager skillManager;
 
     private void Start()
     {
+        skillManager = FindFirstObjectByType<SkillManager>();
         OnProgressChanged?.Invoke();
     }
 
@@ -25,6 +29,8 @@ public class PlayerProgression : MonoBehaviour
 
         currentExp += amount;
 
+        expToNextLevel = Mathf.Max(1, expToNextLevel);
+
         while (currentExp >= expToNextLevel)
         {
             currentExp -= expToNextLevel;
@@ -34,9 +40,10 @@ public class PlayerProgression : MonoBehaviour
                 expToNextLevel * 1.3f
             );
 
-            SkillManager skillManager =
-                FindFirstObjectByType<SkillManager>();
+            OnLevelUp?.Invoke(level);
 
+            if (skillManager == null)
+                skillManager = FindFirstObjectByType<SkillManager>();
             if (skillManager != null)
                 skillManager.OpenSkillSelection();
         }
@@ -61,5 +68,13 @@ public class PlayerProgression : MonoBehaviour
         coins -= amount;
         OnProgressChanged?.Invoke();
         return true;
+    }
+
+    private void OnValidate()
+    {
+        level = Mathf.Max(1, level);
+        currentExp = Mathf.Max(0, currentExp);
+        expToNextLevel = Mathf.Max(1, expToNextLevel);
+        coins = Mathf.Max(0, coins);
     }
 }

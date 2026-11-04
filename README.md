@@ -11,3 +11,13 @@ standard third-party folder.
 - Build Profiles: `Assets/MonsterSurvival/Settings/Build Profiles`
 
 See `Assets/MonsterSurvival/README.md` for ownership and folder rules.
+
+## Basic controls
+
+- Move: `WASD` or arrow keys
+- Dash: `Space`
+- Pause / back: `Escape`
+- Inventory: `I`
+
+Combat attacks automatically; positioning, dash timing, upgrades and equipment
+form the core survival loop.

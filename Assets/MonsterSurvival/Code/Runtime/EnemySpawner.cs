@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public event System.Action<GameObject> OnEnemySpawned;
+
     [Header("Enemy Prefabs")]
 
     // Quai thuong - giu lai bien cu
@@ -41,6 +43,12 @@ public class EnemySpawner : MonoBehaviour
     [Range(0f, 0.4f)]
     public float screenMargin = 0.08f;
 
+    [Tooltip("Spawn from the camera border so enemies enter the fight instead of appearing on top of the player.")]
+    public bool spawnFromViewportEdge = true;
+
+    [Range(1, 30)]
+    public int fallbackPositionAttempts = 12;
+
     [Header("Safe Spawn 4B.3 (optional)")]
     public MapSafeSpawn2D safeSpawn;
     [Min(0f)] public float minDistanceFromPlayer = 3.5f;
@@ -50,6 +58,7 @@ public class EnemySpawner : MonoBehaviour
 
     private Camera mainCamera;
     private float spawnTimer;
+    private Transform player;
 
 
     private void Awake()
@@ -57,12 +66,21 @@ public class EnemySpawner : MonoBehaviour
         mainCamera = Camera.main;
         if (safeSpawn == null) safeSpawn = FindFirstObjectByType<MapSafeSpawn2D>();
 
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null) player = playerObject.transform;
+
         if (mainCamera == null)
         {
             Debug.LogError(
                 "EnemySpawner: Khong tim thay Main Camera!"
             );
         }
+    }
+
+    private void OnEnable()
+    {
+        // Every wave gets a predictable opening beat instead of inheriting an old timer.
+        spawnTimer = 0f;
     }
 
 
@@ -120,11 +138,7 @@ public class EnemySpawner : MonoBehaviour
         float maxY = 1f - screenMargin;
 
 
-        Vector3 viewportPosition = new Vector3(
-            Random.Range(minX, maxX),
-            Random.Range(minY, maxY),
-            0f
-        );
+        Vector3 viewportPosition = RandomViewportPoint(minX, maxX, minY, maxY);
 
 
         // Chuyen toa do Camera sang World
@@ -139,21 +153,69 @@ public class EnemySpawner : MonoBehaviour
         // Khong fallback sang vi tri nguy hiem neu het lan thu.
         if (safeSpawn != null)
         {
-            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-            Transform player = playerObject != null ? playerObject.transform : null;
-            if (!safeSpawn.TryFindViewportPoint(
-                mainCamera, player, out spawnPosition,
-                screenMargin, minDistanceFromPlayer,
-                spawnClearanceRadius, safeSpawnAttempts))
+            bool foundSafeEdge = false;
+            int attempts = Mathf.Max(1, fallbackPositionAttempts);
+            LayerMask obstacleLayers = safeSpawn.obstacleLayers;
+
+            while (attempts-- > 0)
+            {
+                viewportPosition = RandomViewportPoint(minX, maxX, minY, maxY);
+                Vector3 candidate = mainCamera.ViewportToWorldPoint(viewportPosition);
+                candidate.z = 0f;
+
+                if (!safeSpawn.IsSafe(candidate, player, minDistanceFromPlayer,
+                    spawnClearanceRadius, obstacleLayers))
+                    continue;
+
+                spawnPosition = candidate;
+                foundSafeEdge = true;
+                break;
+            }
+
+            if (!foundSafeEdge && !safeSpawn.TryFindViewportPoint(
+                    mainCamera, player, out spawnPosition,
+                    screenMargin, minDistanceFromPlayer,
+                    spawnClearanceRadius, safeSpawnAttempts))
+                return;
+        }
+        else if (player != null)
+        {
+            int attempts = Mathf.Max(1, fallbackPositionAttempts);
+            while (Vector2.Distance(spawnPosition, player.position) < minDistanceFromPlayer &&
+                   --attempts > 0)
+            {
+                viewportPosition = RandomViewportPoint(minX, maxX, minY, maxY);
+                spawnPosition = mainCamera.ViewportToWorldPoint(viewportPosition);
+                spawnPosition.z = 0f;
+            }
+
+            if (Vector2.Distance(spawnPosition, player.position) < minDistanceFromPlayer)
                 return;
         }
 
         // Tao quai tai vi tri ngau nhien
-        Instantiate(
+        GameObject spawned = Instantiate(
             selectedPrefab,
             spawnPosition,
             Quaternion.identity
         );
+
+        OnEnemySpawned?.Invoke(spawned);
+    }
+
+
+    private Vector3 RandomViewportPoint(float minX, float maxX, float minY, float maxY)
+    {
+        if (!spawnFromViewportEdge)
+            return new Vector3(Random.Range(minX, maxX), Random.Range(minY, maxY), 0f);
+
+        switch (Random.Range(0, 4))
+        {
+            case 0: return new Vector3(minX, Random.Range(minY, maxY), 0f);
+            case 1: return new Vector3(maxX, Random.Range(minY, maxY), 0f);
+            case 2: return new Vector3(Random.Range(minX, maxX), minY, 0f);
+            default: return new Vector3(Random.Range(minX, maxX), maxY, 0f);
+        }
     }
 
 
