@@ -1,0 +1,16 @@
+﻿MONSTERSURVIVAL 7I.1 / ENDLESS CORE QA
+Time=2026-11-01T19:16:33.7596050+07:00 Unity=6000.6.6f1 Mode=PLAY Scene=SampleScene
+ModeInspector=True RuntimeEnabled=True BossGateTakenOver=True EndlessStarted=True
+WaveManager.CurrentWave=8 7I1CurrentWave=8 Peak=8 Finished=2
+Status=WAVE 8 ACTIVE Errors=0
+Spawner: enabled=True maxEnemies=55 interval=0.600
+TRACE 12:12:38Z ARMED: wait for Wave 5 boss spawn
+TRACE 12:13:39Z WAVE 5 BOSS GATE: waiting for Boss defeat
+TRACE 12:13:52Z ENDLESS CORE ACTIVE (Wave 6+)
+TRACE 12:13:52Z WAVE 6 ANNOUNCEMENT
+TRACE 12:14:32Z WAVE 6 CLEARED
+TRACE 12:14:36Z WAVE 7 ANNOUNCEMENT
+TRACE 12:15:09Z WAVE 7 CLEARED
+TRACE 12:15:13Z WAVE 8 ANNOUNCEMENT
+7I.1 IN-MEMORY RULE TESTS: PASS=8 FAIL=0. Does NOT prove Unity runtime Boss gate, 7E/7F integration or Save.
+MANUAL PENDING: boss wave 5 gate, Wave6/7 spawn, pause, GameOver, 7E/7F effects, HUD, normal mode Victory, Profile/Save unchanged.

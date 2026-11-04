@@ -1,0 +1,7 @@
+﻿MONSTERSURVIVAL / 7J.2.1 HUB SYNC & NAVIGATION QA
+Time=2026-11-03T12:31:07.2521958+07:00 Unity=6000.6.6f1 Play=False ActiveScene=MainMenu
+MainMenuHubEntry=NOT INITIALIZED
+PlayerHub7J2=NOT LOADED
+SelectedProfile=3
+NO WRITES: This QA window never calls TrySave, TryClaim or recovery.
+MANUAL PENDING: close X each of seven tabs -> Hub home; BACK -> MainMenu; switch Profile and reopen; claim Gold once; Normal/Endless unaffected.

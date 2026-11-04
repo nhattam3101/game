@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 96a3b4fb31baadf4d84176565f531f7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3851016829746205329
+    second: VoidBurst_Impact_20frames_FIXED_0
+  - first:
+      213: -8078591512811174413
+    second: VoidBurst_Impact_20frames_FIXED_1
+  - first:
+      213: 8936681988782753120
+    second: VoidBurst_Impact_20frames_FIXED_2
+  - first:
+      213: -2861927407231408265
+    second: VoidBurst_Impact_20frames_FIXED_3
+  - first:
+      213: 1101756852300806978
+    second: VoidBurst_Impact_20frames_FIXED_4
+  - first:
+      213: 1412399185589054645
+    second: VoidBurst_Impact_20frames_FIXED_5
+  - first:
+      213: -744145197421168134
+    second: VoidBurst_Impact_20frames_FIXED_6
+  - first:
+      213: 6676383459413355197
+    second: VoidBurst_Impact_20frames_FIXED_7
+  - first:
+      213: -4900002032723962114
+    second: VoidBurst_Impact_20frames_FIXED_8
+  - first:
+      213: -985214167977593116
+    second: VoidBurst_Impact_20frames_FIXED_9
+  - first:
+      213: 6569522301455513967
+    second: VoidBurst_Impact_20frames_FIXED_10
+  - first:
+      213: 5053786318425033585
+    second: VoidBurst_Impact_20frames_FIXED_11
+  - first:
+      213: 6495212836052827626
+    second: VoidBurst_Impact_20frames_FIXED_12
+  - first:
+      213: -2741307890996436169
+    second: VoidBurst_Impact_20frames_FIXED_13
+  - first:
+      213: -6406286670858973662
+    second: VoidBurst_Impact_20frames_FIXED_14
+  - first:
+      213: -7094554697488030598
+    second: VoidBurst_Impact_20frames_FIXED_15
+  - first:
+      213: -1166842851823831267
+    second: VoidBurst_Impact_20frames_FIXED_16
+  - first:
+      213: 1510965648175644094
+    second: VoidBurst_Impact_20frames_FIXED_17
+  - first:
+      213: 1185205076008058522
+    second: VoidBurst_Impact_20frames_FIXED_18
+  - first:
+      213: -2798997905733260646
+    second: VoidBurst_Impact_20frames_FIXED_19
+  - first:
+      213: 5991862680154701698
+    second: VoidBurst_Impact_20frames_FIXED_20
+  - first:
+      213: -1617050170647452424
+    second: VoidBurst_Impact_20frames_FIXED_21
+  - first:
+      213: 7336716520001648976
+    second: VoidBurst_Impact_20frames_FIXED_22
+  - first:
+      213: 6493946895126376919
+    second: VoidBurst_Impact_20frames_FIXED_23
+  - first:
+      213: -457751888647269182
+    second: VoidBurst_Impact_20frames_FIXED_24
+  - first:
+      213: 8302120552399447249
+    second: VoidBurst_Impact_20frames_FIXED_25
+  - first:
+      213: 315653931816111094
+    second: VoidBurst_Impact_20frames_FIXED_26
+  - first:
+      213: -8733263134644992256
+    second: VoidBurst_Impact_20frames_FIXED_27
+  - first:
+      213: 333099816154597406
+    second: VoidBurst_Impact_20frames_FIXED_28
+  - first:
+      213: 8571398610100294838
+    second: VoidBurst_Impact_20frames_FIXED_29
+  - first:
+      213: 4477568941133088734
+    second: VoidBurst_Impact_20frames_FIXED_30
+  - first:
+      213: -3009708836680317178
+    second: VoidBurst_Impact_20frames_FIXED_31
+  - first:
+      213: -7280009033340958241
+    second: VoidBurst_Impact_20frames_FIXED_32
+  - first:
+      213: -1974537612100801802
+    second: VoidBurst_Impact_20frames_FIXED_33
+  - first:
+      213: -2572184725479188343
+    second: VoidBurst_Impact_20frames_FIXED_34
+  - first:
+      213: 3452253508392417984
+    second: VoidBurst_Impact_20frames_FIXED_35
+  - first:
+      213: 1896460305732676204
+    second: VoidBurst_Impact_20frames_FIXED_36
+  - first:
+      213: 7652032365307814094
+    second: VoidBurst_Impact_20frames_FIXED_37
+  - first:
+      213: -8657090800427570823
+    second: VoidBurst_Impact_20frames_FIXED_38
+  - first:
+      213: 3702627415140769747
+    second: VoidBurst_Impact_20frames_FIXED_39
+  - first:
+      213: 6894632656224618757
+    second: VoidBurst_Impact_20frames_FIXED_40
+  - first:
+      213: 7072511516494289922
+    second: VoidBurst_Impact_20frames_FIXED_41
+  - first:
+      213: 6026555122612822952
+    second: VoidBurst_Impact_20frames_FIXED_42
+  - first:
+      213: 6330564688446062490
+    second: VoidBurst_Impact_20frames_FIXED_43
+  - first:
+      213: -8311402675950837789
+    second: VoidBurst_Impact_20frames_FIXED_44
+  - first:
+      213: -8270959196638008330
+    second: VoidBurst_Impact_20frames_FIXED_45
+  - first:
+      213: 4203124246865317181
+    second: VoidBurst_Impact_20frames_FIXED_46
+  - first:
+      213: 3015444471106166195
+    second: VoidBurst_Impact_20frames_FIXED_47
+  - first:
+      213: -2786881513440717351
+    second: VoidBurst_Impact_20frames_FIXED_48
+  - first:
+      213: 5145018451422856224
+    second: VoidBurst_Impact_20frames_FIXED_49
+  - first:
+      213: -9194562165100144775
+    second: VoidBurst_Impact_20frames_FIXED_50
+  - first:
+      213: 1685928093938673431
+    second: VoidBurst_Impact_20frames_FIXED_51
+  - first:
+      213: -632452988784407969
+    second: VoidBurst_Impact_20frames_FIXED_52
+  - first:
+      213: -3400338677427759579
+    second: VoidBurst_Impact_20frames_FIXED_53
+  - first:
+      213: 6611308076955632220
+    second: VoidBurst_Impact_20frames_FIXED_54
+  - first:
+      213: 5840654662958329637
+    second: VoidBurst_Impact_20frames_FIXED_55
+  - first:
+      213: 2241621203451217900
+    second: VoidBurst_Impact_20frames_FIXED_56
+  - first:
+      213: 5738879267165815811
+    second: VoidBurst_Impact_20frames_FIXED_57
+  - first:
+      213: -4231661919645200342
+    second: VoidBurst_Impact_20frames_FIXED_58
+  - first:
+      213: 7238139980450254440
+    second: VoidBurst_Impact_20frames_FIXED_59
+  - first:
+      213: -3512820473976502979
+    second: VoidBurst_Impact_20frames_FIXED_60
+  - first:
+      213: -2634374824416472730
+    second: VoidBurst_Impact_20frames_FIXED_61
+  - first:
+      213: -3825659564183700822
+    second: VoidBurst_Impact_20frames_FIXED_62
+  - first:
+      213: 7442714758373590971
+    second: VoidBurst_Impact_20frames_FIXED_63
+  - first:
+      213: 5410095974188542608
+    second: VoidBurst_Impact_20frames_FIXED_64
+  - first:
+      213: -3016730850086626045
+    second: VoidBurst_Impact_20frames_FIXED_65
+  - first:
+      213: 2226555449666619834
+    second: VoidBurst_Impact_20frames_FIXED_66
+  - first:
+      213: -774487571085125687
+    second: VoidBurst_Impact_20frames_FIXED_67
+  - first:
+      213: 4128666740905085605
+    second: VoidBurst_Impact_20frames_FIXED_68
+  - first:
+      213: 1850589814629107429
+    second: VoidBurst_Impact_20frames_FIXED_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192d211376f817530800000000000000
+      internalID: 3851016829746205329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5876142d313ef80800000000000000
+      internalID: -8078591512811174413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06507049be8750c70800000000000000
+      internalID: 8936681988782753120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777640faf246848d0800000000000000
+      internalID: -2861927407231408265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bfd32150a3a4f00800000000000000
+      internalID: 1101756852300806978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc261a7399d99310800000000000000
+      internalID: 1412399185589054645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9f566b2e34ca5f0800000000000000
+      internalID: -744145197421168134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba60a2226747ac50800000000000000
+      internalID: 6676383459413355197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6dbc0dc12bffbb0800000000000000
+      internalID: -4900002032723962114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e673022fe0d352f0800000000000000
+      internalID: -985214167977593116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f693342f9b1ab2b50800000000000000
+      internalID: 6569522301455513967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_11
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b047861e7a22640800000000000000
+      internalID: 5053786318425033585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed7c7949a1a32a50800000000000000
+      internalID: 6495212836052827626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_13
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733ae294ffae4f9d0800000000000000
+      internalID: -2741307890996436169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_14
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e812ef63c4817a0800000000000000
+      internalID: -6406286670858973662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_15
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74a5a857141b8d90800000000000000
+      internalID: -7094554697488030598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_16
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d173654cb9a8ecfe0800000000000000
+      internalID: -1166842851823831267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_17
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdb357604708f410800000000000000
+      internalID: 1510965648175644094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_18
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e3375bcb1b27010800000000000000
+      internalID: 1185205076008058522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Impact_20frames_FIXED_19
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ae4b50c36f729d0800000000000000
+      internalID: -2798997905733260646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce84511cd75dcf54c9d61433df9510ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      VoidBurst_Impact_20frames_FIXED_0: 3851016829746205329
+      VoidBurst_Impact_20frames_FIXED_1: -8078591512811174413
+      VoidBurst_Impact_20frames_FIXED_10: 6569522301455513967
+      VoidBurst_Impact_20frames_FIXED_11: 5053786318425033585
+      VoidBurst_Impact_20frames_FIXED_12: 6495212836052827626
+      VoidBurst_Impact_20frames_FIXED_13: -2741307890996436169
+      VoidBurst_Impact_20frames_FIXED_14: -6406286670858973662
+      VoidBurst_Impact_20frames_FIXED_15: -7094554697488030598
+      VoidBurst_Impact_20frames_FIXED_16: -1166842851823831267
+      VoidBurst_Impact_20frames_FIXED_17: 1510965648175644094
+      VoidBurst_Impact_20frames_FIXED_18: 1185205076008058522
+      VoidBurst_Impact_20frames_FIXED_19: -2798997905733260646
+      VoidBurst_Impact_20frames_FIXED_2: 8936681988782753120
+      VoidBurst_Impact_20frames_FIXED_3: -2861927407231408265
+      VoidBurst_Impact_20frames_FIXED_4: 1101756852300806978
+      VoidBurst_Impact_20frames_FIXED_5: 1412399185589054645
+      VoidBurst_Impact_20frames_FIXED_6: -744145197421168134
+      VoidBurst_Impact_20frames_FIXED_7: 6676383459413355197
+      VoidBurst_Impact_20frames_FIXED_8: -4900002032723962114
+      VoidBurst_Impact_20frames_FIXED_9: -985214167977593116
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

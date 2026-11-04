@@ -1,0 +1,8 @@
+﻿MONSTERSURVIVAL 7I.3 / BOSS ROTATION + DIFFICULTY QA
+Generated=2026-11-02T21:28:13.0060706+07:00 Unity=6000.6.6f1 Scene=SampleScene Play=True
+7I2=APPLIED: Endless FROM MAINMENU
+7I1=Enabled=True EndlessStarted=True Wave=11 Peak=11 Error=0
+7I3 MISSING
+Spawner enabled=True interval=0.60 maxEnemies=60 WaveManagerCurrentWave=11
+7I.3 PURE RULES PASS=10 FAIL=0; no scene/save/HP writes.
+MANUAL PENDING: NORMAL Victory Wave5, ENDLESS Wave10 Boss spawn+death then Wave11, Wave15 Grave Warden, 7F/7E interaction, Boss HP follow, Pause, GameOver, Save/Quest isolation.

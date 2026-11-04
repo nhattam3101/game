@@ -1,0 +1,70 @@
+{
+  "Wraith": {
+    "Idle": {
+      "frames": 16,
+      "source": "bộ_sprite_hồn_ma_pháp_sư_tím.png"
+    },
+    "Move": {
+      "frames": 18,
+      "source": "bộ_sprite_wraith_tím_huyền_bí.png"
+    },
+    "Spawn": {
+      "frames": 14,
+      "source": "bộ_sprites_hồn_ma_tím_phát_sáng.png"
+    },
+    "Attack": {
+      "frames": 18,
+      "source": "bảng_sprite_wraith_tím_vàng.png"
+    },
+    "Hit": {
+      "frames": 10,
+      "source": "bộ_sprite_hồn_ma_tím_8_khung.png"
+    },
+    "Death": {
+      "frames": 18,
+      "source": "chuỗi_tan_biến_của_oan_hồn_tím.png"
+    },
+    "SoulCharge": {
+      "frames": 14,
+      "source": "bộ_sprites_hồn_ma_tím_phát_sáng.png"
+    },
+    "HoverFast": {
+      "frames": 18,
+      "source": "bộ_sprite_hồn_ma_tím_8_khung.png"
+    }
+  },
+  "Warrior": {
+    "Idle": {
+      "frames": 16,
+      "source": "hiệp_sĩ_bộ_xương_tím_bảng_sprite_idle.png"
+    },
+    "Move": {
+      "frames": 18,
+      "source": "bộ_sprite_hiệp_sĩ_xương_tím_phát_sáng.png"
+    },
+    "Spawn": {
+      "frames": 14,
+      "source": "bộ_sprite_hiệp_sĩ_xương_phép_tím.png"
+    },
+    "Attack": {
+      "frames": 18,
+      "source": "sprite_hiệp_sĩ_xương_vung_kiếm_tím.png"
+    },
+    "Hit": {
+      "frames": 10,
+      "source": "bộ_sprite_hiệp_sĩ_xương_tím_phát_sáng.png"
+    },
+    "Death": {
+      "frames": 18,
+      "source": "hiệp_sĩ_xương_tan_biến_trong_ma_thuật_tím.png"
+    },
+    "Guard": {
+      "frames": 14,
+      "source": "hiệp_sĩ_bộ_xương_tím_bảng_sprite_idle.png"
+    },
+    "Empower": {
+      "frames": 16,
+      "source": "bộ_sprite_hiệp_sĩ_xương_phép_tím.png"
+    }
+  }
+}

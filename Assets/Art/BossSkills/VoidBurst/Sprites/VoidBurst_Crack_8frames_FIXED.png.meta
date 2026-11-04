@@ -1,0 +1,471 @@
+fileFormatVersion: 2
+guid: 100d4293c9a0a2f46b849aabbbac81dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4754494374290611060
+    second: VoidBurst_Crack_8frames_FIXED_0
+  - first:
+      213: -4284420544744584764
+    second: VoidBurst_Crack_8frames_FIXED_1
+  - first:
+      213: -4703469904157920204
+    second: VoidBurst_Crack_8frames_FIXED_2
+  - first:
+      213: 6884612065621473926
+    second: VoidBurst_Crack_8frames_FIXED_3
+  - first:
+      213: 5721187491923202292
+    second: VoidBurst_Crack_8frames_FIXED_4
+  - first:
+      213: 6896585998188644649
+    second: VoidBurst_Crack_8frames_FIXED_5
+  - first:
+      213: 2723788943182851633
+    second: VoidBurst_Crack_8frames_FIXED_6
+  - first:
+      213: -8765292053189630607
+    second: VoidBurst_Crack_8frames_FIXED_7
+  - first:
+      213: 1774707136533371120
+    second: VoidBurst_Crack_8frames_FIXED_8
+  - first:
+      213: 6226251474352107802
+    second: VoidBurst_Crack_8frames_FIXED_9
+  - first:
+      213: 9082977540742158670
+    second: VoidBurst_Crack_8frames_FIXED_10
+  - first:
+      213: 6100436633481171060
+    second: VoidBurst_Crack_8frames_FIXED_11
+  - first:
+      213: -2022228597200480329
+    second: VoidBurst_Crack_8frames_FIXED_12
+  - first:
+      213: -7202205216846156522
+    second: VoidBurst_Crack_8frames_FIXED_13
+  - first:
+      213: -3543058545561855107
+    second: VoidBurst_Crack_8frames_FIXED_14
+  - first:
+      213: 5298898928041856729
+    second: VoidBurst_Crack_8frames_FIXED_15
+  - first:
+      213: -2422156696753816572
+    second: VoidBurst_Crack_8frames_FIXED_16
+  - first:
+      213: 8754320699998135341
+    second: VoidBurst_Crack_8frames_FIXED_17
+  - first:
+      213: 7793286250697891345
+    second: VoidBurst_Crack_8frames_FIXED_18
+  - first:
+      213: 4473158027020846860
+    second: VoidBurst_Crack_8frames_FIXED_19
+  - first:
+      213: -7101338297388299171
+    second: VoidBurst_Crack_8frames_FIXED_20
+  - first:
+      213: 636703997192287916
+    second: VoidBurst_Crack_8frames_FIXED_21
+  - first:
+      213: 8679797972271723573
+    second: VoidBurst_Crack_8frames_FIXED_22
+  - first:
+      213: 2356754995474175053
+    second: VoidBurst_Crack_8frames_FIXED_23
+  - first:
+      213: -4740592667564241495
+    second: VoidBurst_Crack_8frames_FIXED_24
+  - first:
+      213: 6710603520528026248
+    second: VoidBurst_Crack_8frames_FIXED_25
+  - first:
+      213: 6469412154615287999
+    second: VoidBurst_Crack_8frames_FIXED_26
+  - first:
+      213: -1403917412360794701
+    second: VoidBurst_Crack_8frames_FIXED_27
+  - first:
+      213: 4659040475359656543
+    second: VoidBurst_Crack_8frames_FIXED_28
+  - first:
+      213: 9204793112286960952
+    second: VoidBurst_Crack_8frames_FIXED_29
+  - first:
+      213: 6259317553598402035
+    second: VoidBurst_Crack_8frames_FIXED_30
+  - first:
+      213: 2474634797785771508
+    second: VoidBurst_Crack_8frames_FIXED_31
+  - first:
+      213: 99908680669061166
+    second: VoidBurst_Crack_8frames_FIXED_32
+  - first:
+      213: -1668054331335420565
+    second: VoidBurst_Crack_8frames_FIXED_33
+  - first:
+      213: 1873587731080143825
+    second: VoidBurst_Crack_8frames_FIXED_34
+  - first:
+      213: -26699541169522700
+    second: VoidBurst_Crack_8frames_FIXED_35
+  - first:
+      213: 796829803644710488
+    second: VoidBurst_Crack_8frames_FIXED_36
+  - first:
+      213: 9108591406569865280
+    second: VoidBurst_Crack_8frames_FIXED_37
+  - first:
+      213: -5125781071314054414
+    second: VoidBurst_Crack_8frames_FIXED_38
+  - first:
+      213: 4855362622438675893
+    second: VoidBurst_Crack_8frames_FIXED_39
+  - first:
+      213: -7627508286049384171
+    second: VoidBurst_Crack_8frames_FIXED_40
+  - first:
+      213: -6697685474765781774
+    second: VoidBurst_Crack_8frames_FIXED_41
+  - first:
+      213: -8163145566660777788
+    second: VoidBurst_Crack_8frames_FIXED_42
+  - first:
+      213: 7876739949837238952
+    second: VoidBurst_Crack_8frames_FIXED_43
+  - first:
+      213: -4645934163192846353
+    second: VoidBurst_Crack_8frames_FIXED_44
+  - first:
+      213: 7231899002523799388
+    second: VoidBurst_Crack_8frames_FIXED_45
+  - first:
+      213: 5320691869022915976
+    second: VoidBurst_Crack_8frames_FIXED_46
+  - first:
+      213: -6908670462398475641
+    second: VoidBurst_Crack_8frames_FIXED_47
+  - first:
+      213: 1155015536791999504
+    second: VoidBurst_Crack_8frames_FIXED_48
+  - first:
+      213: -7014051956894438197
+    second: VoidBurst_Crack_8frames_FIXED_49
+  - first:
+      213: 346754496700779813
+    second: VoidBurst_Crack_8frames_FIXED_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b5f2a617b5bf140800000000000000
+      internalID: 4754494374290611060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c90d12e63eaa84c0800000000000000
+      internalID: -4284420544744584764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4343deeca0be9beb0800000000000000
+      internalID: -4703469904157920204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a7cbb823e0b8f50800000000000000
+      internalID: 6884612065621473926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f09d7536bdb56f40800000000000000
+      internalID: 5721187491923202292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92987f8fc6895bf50800000000000000
+      internalID: 6896585998188644649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eec81dc97dcc520800000000000000
+      internalID: 2723788943182851633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidBurst_Crack_8frames_FIXED_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175e311715d6b5680800000000000000
+      internalID: -8765292053189630607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d5b9584d0482cf149abb43371b55557b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      VoidBurst_Crack_8frames_FIXED_0: 4754494374290611060
+      VoidBurst_Crack_8frames_FIXED_1: -4284420544744584764
+      VoidBurst_Crack_8frames_FIXED_2: -4703469904157920204
+      VoidBurst_Crack_8frames_FIXED_3: 6884612065621473926
+      VoidBurst_Crack_8frames_FIXED_4: 5721187491923202292
+      VoidBurst_Crack_8frames_FIXED_5: 6896585998188644649
+      VoidBurst_Crack_8frames_FIXED_6: 2723788943182851633
+      VoidBurst_Crack_8frames_FIXED_7: -8765292053189630607
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

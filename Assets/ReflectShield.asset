@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafe5a89ba6a9584795d68db11e17e65, type: 3}
+  m_Name: ReflectShield
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: "L\xE1 ch\u1EAFn ph\u1EA3n s\xE1t th\u01B0\u01A1ng"
+  description: "Ph\u1EA3n l\u1EA1i 50% s\xE1t th\u01B0\u01A1ng khi l\xE1 ch\u1EAFn ch\u1EB7n \u0111\xF2n"
+  skillType: 8
+  value: 0.5
+  rarity: 2
+  maxLevel: 5
+  icon: {fileID: -1439239482259673105, guid: 38499712b623f9b4d84bd33b06237a5b, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafe5a89ba6a9584795d68db11e17e65, type: 3}
+  m_Name: CriticalHit
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: "Ch\xED m\u1EA1ng"
+  description: "T\u0103ng 10 \u0111i\u1EC3m ph\u1EA7n tr\u0103m t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng. \u0110\xF2n ch\xED m\u1EA1ng g\xE2y s\xE1t th\u01B0\u01A1ng g\u1EA5p \u0111\xF4i."
+  skillType: 7
+  value: 0.1
+  rarity: 1
+  maxLevel: 5
+  icon: {fileID: -4110557581994897628, guid: 91c785bc838954a4f92710028cdd6725, type: 3}

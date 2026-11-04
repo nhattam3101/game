@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e8965ebb0ee354bb1f549d57b68d4b, type: 3}
+  m_Name: MS7B1_ElementalAmmoData
+  m_EditorClassIdentifier: Assembly-CSharp::MS7B1ElementData
+  burnDuration: 3
+  burnDamagePerSecond: 2
+  burnTickSeconds: 0.5
+  slowPercent: 0.3
+  slowDuration: 2
+  maxChainTargets: 3
+  chainRadius: 3.5
+  chainDamageRatio: 0.45
+  arcLifetime: 0.12
+  fireTint: {r: 1, g: 0.45, b: 0.18, a: 1}
+  iceTint: {r: 0.55, g: 0.9, b: 1, a: 1}
+  lightningTint: {r: 1, g: 0.86, b: 0.36, a: 1}

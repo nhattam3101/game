@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b11c0b4be81f654cbf9670734336b74, type: 3}
+  m_Name: MS7A2_AdvancedEnemyBalance
+  m_EditorClassIdentifier: Assembly-CSharp::MS7A2AdvancedBalanceProfile
+  waves:
+  - wave: 1
+    healerSpawnInterval: 18
+    maxActiveHealers: 1
+    healerSpawnsPerWave: 1
+    healerHealAmount: 3
+    healerHealInterval: 3.4
+    summonerSpawnInterval: 20
+    maxActiveSummoners: 1
+    summonerSpawnsPerWave: 1
+    summonInterval: 14
+    minionsPerCast: 1
+    maxActiveMinions: 2
+    rangedAttackInterval: 3
+    rangedProjectileDamage: 6
+    specialGoldMultiplier: 1
+    specialExpMultiplier: 1
+    eliteDamageMultiplier: 1
+  - wave: 2
+    healerSpawnInterval: 16
+    maxActiveHealers: 1
+    healerSpawnsPerWave: 1
+    healerHealAmount: 3
+    healerHealInterval: 3.2
+    summonerSpawnInterval: 20
+    maxActiveSummoners: 1
+    summonerSpawnsPerWave: 1
+    summonInterval: 14
+    minionsPerCast: 1
+    maxActiveMinions: 2
+    rangedAttackInterval: 2.8
+    rangedProjectileDamage: 6
+    specialGoldMultiplier: 1
+    specialExpMultiplier: 1
+    eliteDamageMultiplier: 1.05
+  - wave: 3
+    healerSpawnInterval: 14
+    maxActiveHealers: 1
+    healerSpawnsPerWave: 2
+    healerHealAmount: 4
+    healerHealInterval: 3
+    summonerSpawnInterval: 20
+    maxActiveSummoners: 1
+    summonerSpawnsPerWave: 1
+    summonInterval: 13
+    minionsPerCast: 1
+    maxActiveMinions: 2
+    rangedAttackInterval: 2.6
+    rangedProjectileDamage: 7
+    specialGoldMultiplier: 1.05
+    specialExpMultiplier: 1.1
+    eliteDamageMultiplier: 1.1
+  - wave: 4
+    healerSpawnInterval: 13
+    maxActiveHealers: 1
+    healerSpawnsPerWave: 2
+    healerHealAmount: 5
+    healerHealInterval: 2.8
+    summonerSpawnInterval: 18
+    maxActiveSummoners: 1
+    summonerSpawnsPerWave: 1
+    summonInterval: 12
+    minionsPerCast: 1
+    maxActiveMinions: 2
+    rangedAttackInterval: 2.4
+    rangedProjectileDamage: 8
+    specialGoldMultiplier: 1.15
+    specialExpMultiplier: 1.15
+    eliteDamageMultiplier: 1.15
+  - wave: 5
+    healerSpawnInterval: 13
+    maxActiveHealers: 1
+    healerSpawnsPerWave: 2
+    healerHealAmount: 5
+    healerHealInterval: 2.8
+    summonerSpawnInterval: 18
+    maxActiveSummoners: 1
+    summonerSpawnsPerWave: 1
+    summonInterval: 12
+    minionsPerCast: 1
+    maxActiveMinions: 2
+    rangedAttackInterval: 2.2
+    rangedProjectileDamage: 9
+    specialGoldMultiplier: 1.2
+    specialExpMultiplier: 1.25
+    eliteDamageMultiplier: 1.2

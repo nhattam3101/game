@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4480843419931562853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8576789097501015028}
+  - component: {fileID: 5345562738340598566}
+  m_Layer: 0
+  m_Name: VoidBurstZone_V2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8576789097501015028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4480843419931562853}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 334.96167, y: 92.45181, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5345562738340598566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4480843419931562853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a8c59279e5c6c47b9169e8c57f4590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VoidBurstZone
+  radius: 1.25
+  warningDuration: 1.5
+  explosionDuration: 0.3
+  damage: 18
+  playerLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  warningStartColor: {r: 0.64, g: 0.3, b: 1, a: 0.7}
+  warningEndColor: {r: 1, g: 0.25, b: 0.58, a: 1}
+  warningFillColor: {r: 0.2, g: 0.03, b: 0.35, a: 0.2}
+  ringWidth: 0.04
+  circleSegments: 64
+  crackRays: 8
+  pointsPerCrack: 6
+  crackStartsAt: 0.3
+  crackColor: {r: 0.92, g: 0.38, b: 1, a: 0.95}
+  crackWidth: 0.032
+  createBranches: 1
+  explosionColor: {r: 0.85, g: 0.3, b: 1, a: 0.8}
+  showExplosionWave: 1
+  explosionWaveWidth: 0.08
+  explosionWaveColor: {r: 1, g: 0.56, b: 1, a: 1}
+  showDebris: 1
+  debrisCount: 10
+  debrisColor: {r: 0.68, g: 0.32, b: 0.84, a: 0.95}
+  aftermathDuration: 0.4
+  customCrackAnimationPrefab: {fileID: 2253664867939730092, guid: 796f7d0d929aa214d9037ba7051d702a, type: 3}
+  customExplosionAnimationPrefab: {fileID: 5972864921751371119, guid: 6712d2ff313fea245844223360144bbc, type: 3}
+  useGeneratedCracks: 0
+  warningSound: {fileID: 0}
+  crackSound: {fileID: 0}
+  explosionSound: {fileID: 0}
+  warningVolume: 0.45
+  crackVolume: 0.65
+  explosionVolume: 0.8
+  soundSpacing: 0.16
+  useCameraShake: 1
+  cameraShakeAmount: 0.07
+  cameraShakeDuration: 0.18
+  cameraShakeMaxDistance: 7
+  lineMaterial: {fileID: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cc7cc48802a2e4dbf1b102ff4faed7, type: 3}
+  m_Name: TitanheartAegis
+  m_EditorClassIdentifier: Assembly-CSharp::MS3AItemData
+  itemId: titanheart_aegis_3d4
+  displayName: TITANHEART AEGIS
+  description: Shadow Titan exclusive. Epic armor that shelters its wielder.
+  icon: {fileID: 21300000, guid: 204f5fb3d52b85c448dc696cb630deb9, type: 3}
+  itemKind: 1
+  maxStack: 1
+  healAmount: 0

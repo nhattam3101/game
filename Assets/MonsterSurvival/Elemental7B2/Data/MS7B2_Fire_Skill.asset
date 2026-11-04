@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafe5a89ba6a9584795d68db11e17e65, type: 3}
+  m_Name: MS7B2_Fire_Skill
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: FIRE AMMO
+  description: Elemental Fire (7B.2; values shown on card)
+  skillType: 4
+  value: 0
+  rarity: 1
+  maxLevel: 3
+  icon: {fileID: -5356387611613530837, guid: 73ae1358e06012b4f928cfbb3f9ed108, type: 3}
+  projectileEffect: {fileID: 0}

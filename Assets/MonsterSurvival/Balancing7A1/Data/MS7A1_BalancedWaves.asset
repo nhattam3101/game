@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb055abe0288a3249a013a460671d45f, type: 3}
+  m_Name: MS7A1_BalancedWaves
+  m_EditorClassIdentifier: Assembly-CSharp::MS7A1WaveBalanceProfile
+  rows:
+  - wave: 1
+    spawnInterval: 2.1
+    maxEnemies: 16
+    normalWeight: 100
+    fastWeight: 0
+    tankWeight: 0
+    rangedSpawnInterval: 10
+    maxRangedEnemies: 1
+  - wave: 2
+    spawnInterval: 1.85
+    maxEnemies: 20
+    normalWeight: 75
+    fastWeight: 25
+    tankWeight: 0
+    rangedSpawnInterval: 10
+    maxRangedEnemies: 1
+  - wave: 3
+    spawnInterval: 1.55
+    maxEnemies: 24
+    normalWeight: 60
+    fastWeight: 30
+    tankWeight: 10
+    rangedSpawnInterval: 8.5
+    maxRangedEnemies: 2
+  - wave: 4
+    spawnInterval: 1.3
+    maxEnemies: 28
+    normalWeight: 50
+    fastWeight: 30
+    tankWeight: 20
+    rangedSpawnInterval: 7.5
+    maxRangedEnemies: 2
+  - wave: 5
+    spawnInterval: 1.15
+    maxEnemies: 32
+    normalWeight: 45
+    fastWeight: 30
+    tankWeight: 25
+    rangedSpawnInterval: 7
+    maxRangedEnemies: 3

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339a36d5bee444d479e25642765bd62a, type: 3}
+  m_Name: BossGear_GraveWarden
+  m_EditorClassIdentifier: Assembly-CSharp::MS3D4BossEquipmentTable
+  entries:
+  - item: {fileID: 11400000, guid: bdc6306f5a35d8e42805602fb6c5a4ad, type: 2}
+    pickupPrefab: {fileID: 3311406732196417799, guid: edb1b46ae2b88614fa64ada3191b0f57, type: 3}
+    chancePercent: 100
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 1e8d068939c687e478a9f5998f8f56b3, type: 2}
+    pickupPrefab: {fileID: 3311406732196417799, guid: b4448dff3f48b1942933e84bc408cc92, type: 3}
+    chancePercent: 24
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 78e6474910382ae4882bd0a01faee2e3, type: 2}
+    pickupPrefab: {fileID: 3311406732196417799, guid: 063aab5f5c8f8f14088bec3fabd960bc, type: 3}
+    chancePercent: 28
+    minAmount: 1
+    maxAmount: 1
+  maxEquipmentDrops: 3
+  spreadRadius: 0.65
+  pickupLifetimeSeconds: 120

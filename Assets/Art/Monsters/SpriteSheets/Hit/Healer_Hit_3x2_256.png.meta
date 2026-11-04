@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: 3d43f72851ef6314cb58c695134497bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7530341328014740768
+    second: Healer_Hit_3x2_256_0
+  - first:
+      213: -4745820073679358796
+    second: Healer_Hit_3x2_256_1
+  - first:
+      213: -3776281041208340374
+    second: Healer_Hit_3x2_256_2
+  - first:
+      213: -729678446730731948
+    second: Healer_Hit_3x2_256_3
+  - first:
+      213: 4147923627926927848
+    second: Healer_Hit_3x2_256_4
+  - first:
+      213: 8285386021215840341
+    second: Healer_Hit_3x2_256_5
+  - first:
+      213: 1172347992440981081
+    second: Healer_Hit_3x2_256_6
+  - first:
+      213: -7013192161969426396
+    second: Healer_Hit_3x2_256_7
+  - first:
+      213: -3880420942569122541
+    second: Healer_Hit_3x2_256_8
+  - first:
+      213: 5511448391621015095
+    second: Healer_Hit_3x2_256_9
+  - first:
+      213: 8312234969386397320
+    second: Healer_Hit_3x2_256_10
+  - first:
+      213: 7482032862039949123
+    second: Healer_Hit_3x2_256_11
+  - first:
+      213: -4626469062240372495
+    second: Healer_Hit_3x2_256_12
+  - first:
+      213: -7215051735706600264
+    second: Healer_Hit_3x2_256_13
+  - first:
+      213: 8157541935690115394
+    second: Healer_Hit_3x2_256_14
+  - first:
+      213: 8815307243444281588
+    second: Healer_Hit_3x2_256_15
+  - first:
+      213: -6816196048832850749
+    second: Healer_Hit_3x2_256_16
+  - first:
+      213: 476512308645273083
+    second: Healer_Hit_3x2_256_17
+  - first:
+      213: -5885547186922763869
+    second: Healer_Hit_3x2_256_18
+  - first:
+      213: 575035867422289083
+    second: Healer_Hit_3x2_256_19
+  - first:
+      213: -2012353453480947060
+    second: Healer_Hit_3x2_256_20
+  - first:
+      213: 9053772513575389199
+    second: Healer_Hit_3x2_256_21
+  - first:
+      213: -7547992895608671259
+    second: Healer_Hit_3x2_256_22
+  - first:
+      213: 1512080149339835490
+    second: Healer_Hit_3x2_256_23
+  - first:
+      213: -6887273821875047790
+    second: Healer_Hit_3x2_256_24
+  - first:
+      213: 2246908880739406422
+    second: Healer_Hit_3x2_256_25
+  - first:
+      213: -2897059315546767722
+    second: Healer_Hit_3x2_256_26
+  - first:
+      213: 8427654720514584545
+    second: Healer_Hit_3x2_256_27
+  - first:
+      213: -1095832958979706621
+    second: Healer_Hit_3x2_256_28
+  - first:
+      213: -6132850527693551655
+    second: Healer_Hit_3x2_256_29
+  - first:
+      213: -6259231569670356484
+    second: Healer_Hit_3x2_256_30
+  - first:
+      213: -6717600250699734209
+    second: Healer_Hit_3x2_256_31
+  - first:
+      213: 6724341110033624024
+    second: Healer_Hit_3x2_256_32
+  - first:
+      213: 498292005958541399
+    second: Healer_Hit_3x2_256_33
+  - first:
+      213: 7754038462806051147
+    second: Healer_Hit_3x2_256_34
+  - first:
+      213: -6359191136234309819
+    second: Healer_Hit_3x2_256_35
+  - first:
+      213: 5344830471056753323
+    second: Healer_Hit_3x2_256_36
+  - first:
+      213: 8898025287566637484
+    second: Healer_Hit_3x2_256_37
+  - first:
+      213: -5693608545907275195
+    second: Healer_Hit_3x2_256_38
+  - first:
+      213: -7639684326709829173
+    second: Healer_Hit_3x2_256_39
+  - first:
+      213: -8690223481163019348
+    second: Healer_Hit_3x2_256_40
+  - first:
+      213: -6469992262467615624
+    second: Healer_Hit_3x2_256_41
+  - first:
+      213: 3067934422028051170
+    second: Healer_Hit_3x2_256_42
+  - first:
+      213: -3706077230297447603
+    second: Healer_Hit_3x2_256_43
+  - first:
+      213: 2850794205647476832
+    second: Healer_Hit_3x2_256_44
+  - first:
+      213: 4831904253040540153
+    second: Healer_Hit_3x2_256_45
+  - first:
+      213: 678280471745108430
+    second: Healer_Hit_3x2_256_46
+  - first:
+      213: -1172188566241605192
+    second: Healer_Hit_3x2_256_47
+  - first:
+      213: -5812622642998616517
+    second: Healer_Hit_3x2_256_48
+  - first:
+      213: 3103293068244164807
+    second: Healer_Hit_3x2_256_49
+  - first:
+      213: -4712211558362122950
+    second: Healer_Hit_3x2_256_50
+  - first:
+      213: 6245492803799472980
+    second: Healer_Hit_3x2_256_51
+  - first:
+      213: 6867159326149070256
+    second: Healer_Hit_3x2_256_52
+  - first:
+      213: -3448547529090785315
+    second: Healer_Hit_3x2_256_53
+  - first:
+      213: 4304008634422259392
+    second: Healer_Hit_3x2_256_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Healer_Hit_3x2_256_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d03c55a85218860800000000000000
+      internalID: 7530341328014740768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healer_Hit_3x2_256_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b47c6499c5732eb0800000000000000
+      internalID: -4745820073679358796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healer_Hit_3x2_256_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a601cbe8664f79bc0800000000000000
+      internalID: -3776281041208340374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d048a7a947772734bb54b69e167f6dd8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Healer_Hit_3x2_256_0: 7530341328014740768
+      Healer_Hit_3x2_256_1: -4745820073679358796
+      Healer_Hit_3x2_256_2: -3776281041208340374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

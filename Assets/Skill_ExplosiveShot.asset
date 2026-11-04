@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafe5a89ba6a9584795d68db11e17e65, type: 3}
+  m_Name: Skill_ExplosiveShot
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillName: "\u0110\u1EA1n n\u1ED5"
+  description: "\u0110\u1EA1n t\u1EA1o v\u1EE5 n\u1ED5 khi tr\xFAng qu\xE1i, g\xE2y s\xE1t th\u01B0\u01A1ng l\xEAn c\xE1c m\u1EE5c ti\xEAu xung quanh."
+  skillType: 11
+  value: 1
+  rarity: 2
+  maxLevel: 1
+  icon: {fileID: 0}
+  projectileEffect: {fileID: 11400000, guid: 9fabb02bd73f2544d8db83d5d3c72f75, type: 2}

@@ -1,0 +1,458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1670664197489128594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8772022568004321411}
+  - component: {fileID: 5438411870687271633}
+  - component: {fileID: 3223322664971951670}
+  - component: {fileID: 331937808334572258}
+  - component: {fileID: 8494828605318554035}
+  - component: {fileID: -819615215676815881}
+  - component: {fileID: 6384163495705981469}
+  - component: {fileID: 2640930488936780572}
+  - component: {fileID: 849190675317409725}
+  - component: {fileID: -5456238091983853074}
+  - component: {fileID: -6341289091528874347}
+  - component: {fileID: 3377189347652196151}
+  - component: {fileID: 3200965642984917559}
+  - component: {fileID: 4926291680859519840}
+  - component: {fileID: 1496537740335037241}
+  - component: {fileID: 2181866680699095109}
+  m_Layer: 6
+  m_Name: ShadowTitan
+  m_TagString: Enemy
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8772022568004321411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 420.382, y: 208.63232, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &5438411870687271633
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &3223322664971951670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0a38e38b640194d83c3f578936bb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 500
+--- !u!114 &331937808334572258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ace60b63d428841a914e7cab4ca46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  moveSpeed: 1.3
+  stopDistance: 0.8
+  attackRange: 1.1
+  damage: 18
+  attackInterval: 1.2
+  expReward: 60
+  coinReward: 30
+  attackAnimator: {fileID: 0}
+--- !u!212 &8494828605318554035
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -6383245995704951380, guid: 2f9622003c38be040a9a133fb04ca6ec, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!58 &-819615215676815881
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.1
+--- !u!114 &6384163495705981469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473ed3cf85f8b5f4db02da4c53650571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossSpecialAttack
+  cooldown: 8
+  warningDuration: 1
+  shockwaveRadius: 2.5
+  shockwaveDamage: 15
+  phase2Controller: {fileID: 2640930488936780572}
+  phase2CooldownMultiplier: 0.75
+  phase2DamageMultiplier: 1.1
+  shockwaveWarningSound: {fileID: 8300000, guid: bcbec02c32367b14a9982adb4abe1723, type: 3}
+  shockwaveBlastSound: {fileID: 8300000, guid: dfef1062d97598542911cae4aa9be3ad, type: 3}
+  warningVolume: 0.7
+  blastVolume: 0.9
+  warningColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  useShrinkingRing: 1
+  shrinkingRingColor: {r: 1, g: 0.2, b: 0.2, a: 0.95}
+  shrinkingRingWidth: 0.12
+  shrinkingRingMinRadius: 0.35
+  useExpandingWave: 1
+  expandingWaveColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  expandingWaveWidth: 0.18
+  expandingWaveDuration: 0.35
+  circleSegments: 60
+  sortingOrderOffset: 5
+--- !u!114 &2640930488936780572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bab3d4d54fb0b4098cf859769aff30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossPhase2Controller
+  bossHealth: {fileID: 3223322664971951670}
+  bossController: {fileID: 331937808334572258}
+  bossAnimator: {fileID: 849190675317409725}
+  phase2HealthThreshold: 0.8
+  phase2MoveSpeedMultiplier: 1.2
+  phase2DamageMultiplier: 1.25
+  phase2AttackIntervalMultiplier: 0.85
+  phase2Aura: {fileID: 0}
+  phase2Activated: 0
+--- !u!95 &849190675317409725
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e18a2d094fd4773439b54df4be384b65, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-5456238091983853074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa4023a788004b4da1b817ea93fd6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossVoidBurstAttack
+  phaseController: {fileID: 2640930488936780572}
+  voidBurstZonePrefab: {fileID: 5345562738340598566, guid: 5f84ed298ce16584c9f856cb00297907, type: 3}
+  numberOfZones: 4
+  distanceFromBoss: 2.2
+  randomizePatternEachCast: 1
+  fixedPattern: 0
+  surroundRadius: 3.6
+  lineSpacing: 2.8
+  logSelectedPattern: 1
+  spawnOneZoneOnPlayer: 1
+  minDistanceFromPlayer: 2.7
+  maxDistanceFromPlayer: 4.8
+  minDistanceBetweenZones: 2.5
+  placementAttemptsPerZone: 80
+  zoneRadius: 1.25
+  warningDuration: 1.5
+  damagePerZone: 14
+  limitZonesToMap: 0
+  mapMin: {x: -12, y: -7}
+  mapMax: {x: 12, y: 7}
+  firstCastDelay: 2
+  castInterval: 11
+  castAnimator: {fileID: 849190675317409725}
+  castTriggerName: VoidBurst
+  castWindupDuration: 2.2
+  stopChargeAtExplosion: 1
+  phase2IdleStateName: ShadowTitan_Phase2_Idle
+  synchronizeZoneLifetimeWithCharge: 1
+  removeZonesWhenChargeEnds: 1
+  lockMovementDuringWindup: 1
+  movementController: {fileID: 331937808334572258}
+  bossRigidbody: {fileID: 5438411870687271633}
+--- !u!114 &-6341289091528874347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749515ed5d6f220439305421172854be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShadowTitanPhaseTransitionFX
+  phaseController: {fileID: 2640930488936780572}
+  bossSprite: {fileID: 8494828605318554035}
+  effectMaterial: {fileID: 0}
+  transformationSound: {fileID: 0}
+  soundVolume: 0.8
+  transitionDuration: 1.4
+  startingRadius: 0.35
+  burstRadius: 2.6
+  transitionRingWidth: 0.09
+  energyRays: 10
+  showAuraAfterTransformation: 1
+  auraRadius: 1.8
+  auraWidth: 0.045
+  auraPulseSpeed: 3
+  auraPulseAmount: 0.08
+  ringColor: {r: 0.82, g: 0.25, b: 1, a: 0.95}
+  rayColor: {r: 1, g: 0.5, b: 0.94, a: 0.9}
+  auraColor: {r: 0.56, g: 0.17, b: 1, a: 0.4}
+  circleSegments: 72
+  sortingOrderOffset: 6
+--- !u!114 &3377189347652196151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae9fd8bbd138244986750edff47e72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MS3BEnemyLootDrop
+  lootTable: {fileID: 11400000, guid: 949da26b683a65e48a1fab2b44e015ed, type: 2}
+  dropOrigin: {fileID: 0}
+  logDrops: 0
+--- !u!114 &3200965642984917559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd91832a344d8c94b8bb8de0500dccba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MS3D4BossEquipmentDrop
+  table: {fileID: 11400000, guid: 7bf2b7feea3bba547af808a3cfab3155, type: 2}
+  dropOrigin: {fileID: 0}
+  logResults: 0
+--- !u!114 &4926291680859519840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de51296d612074e4cb0512e28d3b9558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MS7A3BossBalanceAgent
+  profile: {fileID: 11400000, guid: 3505cc32013dace469c43d30e5823c4d, type: 2}
+  applyAtRuntime: 1
+  additionalDamageFields: []
+  grantStandaloneIfNoEnemyController: 0
+  logBalance: 1
+--- !u!114 &1496537740335037241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40593e37289a4744f86cf3703872995e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MS7G1TitanRiftLanes
+  enableRiftLanes: 1
+  phaseTwoOnly: 1
+  avoidVoidBurstOverlap: 1
+  phaseController: {fileID: 2640930488936780572}
+  warningSeconds: 1.8
+  impactVisualSeconds: 0.28
+  cooldownSeconds: 16
+  firstCastDelayAfterPhase2: 5
+  damage: 9
+  laneLength: 5.8
+  laneHalfWidth: 0.28
+  sideAngleDegrees: 28
+  safeNearBossRadius: 0.75
+  warningColor: {r: 0.66, g: 0.35, b: 0.98, a: 0.9}
+  impactColor: {r: 1, g: 0.65, b: 0.3, a: 1}
+  outlineWidth: 0.055
+  sortingOrderAboveBoss: 2
+--- !u!114 &2181866680699095109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670664197489128594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195300db037503045b56c26926834c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MS7G3BossSkillVFX
+  enableEnhancedVFX: 1
+  targetSkill: 1
+  warningGlowAlpha: 0.23
+  chargeTrailAlpha: 0.7
+  glowWidthMultiplier: 2.6
+  trailCyclesPerWarning: 1.7
+  trailPerimeterFraction: 0.17
+  bossChargeAuraRadius: 0.42
+  titanWarningGlow: {r: 0.67, g: 0.36, b: 1, a: 0.85}
+  graveWarningGlow: {r: 0.88, g: 0.52, b: 1, a: 0.85}
+  impactGlow: {r: 1, g: 0.78, b: 0.37, a: 1}
+  sortingOrderAboveOriginal: 1
+  optionalLineMaterial: {fileID: 0}
